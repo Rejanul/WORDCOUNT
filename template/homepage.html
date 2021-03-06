@@ -1,0 +1,9 @@
+<h1><marquee behavior:Alternate direction="">from home</marquee></h1>
+
+<a href = "{% url 'home' %}">home page </a>
+<h1>text area</h1>
+<form action="{%url 'count'%}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+<br/>
+    <input type="submit" value="count" ></input>
+</form>
